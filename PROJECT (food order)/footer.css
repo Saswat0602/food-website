@@ -1,0 +1,19 @@
+.footer{
+    height: 200px;
+    width: 100%;
+    border: 2px black;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footera{
+    height: 180px;
+    width: 300px;
+    border: 2px rgb(69, 25, 225);
+    float: left;
+    /* margin-top: 10px; */
+    color: aliceblue;
+
+}

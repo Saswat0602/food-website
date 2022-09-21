@@ -1,0 +1,66 @@
+.topcat{
+    border: 0px black ;
+    /* height: 500px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.topcat_pro{
+    border: 2px solid rgba(143, 239, 148, 0.79);
+    width: 500px;
+    height: 230px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 3px rgb(118, 116, 116);
+    transition: transeform 1s;
+}
+
+.topcat_pro :hover{
+    transform: scale(1.05);
+}
+
+
+.topcat_pro img{
+    width: 100%;
+}
+.checked{
+    color: orangered;
+}
+.starr{
+    border: 0px solid black;
+    /* text-align: center; */
+    height: 30px;
+    display: flex;
+    justify-self: center;
+
+}
+.title p {
+    text-align: center;
+    font-size: 30px;
+}
+.btn{
+    border: 0px black;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn input{
+    height: 40px;
+    width: 130px;
+    border-radius: 7px;
+    border: opx;
+    background-color: orange;
+    font-size: 22px;
+    box-shadow: 5px 5px 5px 3px rgb(118, 116, 116);
+
+}
+.btn input :hover{
+    background-color: green;
+    color: aliceblue;
+
+}

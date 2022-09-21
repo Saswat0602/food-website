@@ -1,0 +1,43 @@
+.topcat{
+    border: 0px black ;
+    /* height: 500px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.topcat_pro{
+    border: opx solid red;
+    width: 370px;
+    height: 265px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 3px rgb(118, 116, 116);
+    transition: transeform 2s;
+     
+}
+
+.topcat_pro :hover{
+    transform: scale(1.05);
+}
+
+
+.topcat_pro img{
+    width: 100%;
+}
+.checked{
+    color: orangered;
+}
+.starr{
+    border: 0px solid black;
+    /* text-align: center; */
+    height: 30px;
+    display: flex;
+    justify-self: center;
+
+}
+.title p {
+    text-align: center;
+    font-size: 10px;
+}
